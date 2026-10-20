@@ -3,7 +3,10 @@ PROGETTO TASKS - MANIPOLARE IL DOM
 Per ogni "task" deve contenere la task stessa, la priorità della task, l'orario aggiornato automaticamente e il pulsante "Elimina".
 
 Ho quindi preso col querySelector il tag ul con id "lista-task" con la const tasks.
-Ho creato la funzione aggiungiTasks, dove inizio creando il tag li per ogni task, lo span per la priorità della task, un div per la data, aggiungendo le corrispettive classi .data e .divData, ed infine il button "Elimina".
+Ho creato la funzione aggiungiTasks.
+Dalla funzione richiedo i parametri "task" dove verrà indicata la task stessa e "lvltask" per indicare la priorità della task.
+Inizio creando il tag li per ogni task, lo span per la priorità della task, un div per la data, aggiungendo le corrispettive classi .data e .divData, ed infine il button "Elimina".
+
 
 Secondo la priorità indicata la task deve avere un background-color diverso, per cui stesso nella funzione ho generato un if che consulta la priorità indicata per ogni task ed infine applica la classe corretta, generata dal CSS.
 
